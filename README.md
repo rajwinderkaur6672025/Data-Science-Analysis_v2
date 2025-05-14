@@ -17,14 +17,3 @@ The "Social Determinants of Substance Misuse" project investigates the socio-eco
 
 ### 📊 Dashboard Overview
 ![Dashboard Overview](images/graphs.png)
-
-### 📈 Data Flow Diagram
-![Data Flow](images/data_flow_diagram.png)
-
-### 🚀 Model Performance
-![Model Performance](images/model_performance.png)
-
-### 📦 Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-username.github.io.git
