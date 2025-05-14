@@ -30,23 +30,6 @@ Data Visualisation: Heatmaps, correlation matrices, and time-series analysis.
 
 Predictive Analytics: Linear regression, K-Means clustering, and trend analysis.
 
-📂 Project Structure
-
-/your-username.github.io/
-│   README.md
-│   index.html
-│
-├───css
-│       styles.css
-│
-├───images
-│       Cluster Analysis.png
-│       Correlation matrix.png
-│       Substance misuse by region.png
-│
-└───data
-        substance_misuse_data.csv
-
 📈 Key Insights & Findings
 
 Income and Employment: Regions with higher poverty and unemployment rates exhibit significantly higher substance misuse rates, underscoring the socio-economic impact on substance misuse.
