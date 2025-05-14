@@ -16,4 +16,12 @@ The "Social Determinants of Substance Misuse" project investigates the socio-eco
 - Predictive models effectively identify high-risk zones, enabling targeted intervention strategies.
 
 ### 📊 Dashboard Overview
-![Dashboard Overview](images/graphs.png)
+
+### 📈 Cluster Analysis
+![Cluster Analysis](images/Cluster%20Analysis.png)
+
+### 📉 Correlation Matrix
+![Correlation Matrix](images/Correlation%20matrix.png)
+
+### 📊 Substance Misuse by Region
+![Substance Misuse by Region](images/Substance%20misuse%20by%20region.png)
