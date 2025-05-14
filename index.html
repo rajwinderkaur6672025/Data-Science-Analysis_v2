@@ -1,79 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Determinants of Substance Misuse - Data Science Analysis</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Social Determinants of Substance Misuse</h1>
-        <p>A Data Science Approach to Identifying Socio-economic Predictors of Substance Misuse in England</p>
+<div class="min-h-screen bg-gray-100 p-6">
+    <header class="bg-blue-600 text-white p-4 rounded-lg shadow-lg mb-4">
+        <h1 class="text-2xl font-bold">Social Determinants of Substance Misuse</h1>
+        <p class="text-sm">Data Science Analysis of Socio-Economic Determinants of Substance Misuse in England</p>
     </header>
 
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>This project explores how socio-economic factors such as income, employment, education, and housing contribute to substance misuse across different regions in England. By leveraging data science techniques, it identifies key socio-economic indicators and proposes targeted intervention strategies to mitigate substance misuse.</p>
-    </section>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <section class="bg-white p-4 rounded-lg shadow-lg">
+            <h2 class="text-lg font-semibold">Project Overview</h2>
+            <p>This project explores how socio-economic factors such as income, employment, and housing contribute to substance misuse across England.</p>
+        </section>
 
-    <section id="project-details">
-        <h2>Project Overview</h2>
-        <p>The project "Social Determinants of Substance Misuse – A Data Science Approach" is a comprehensive data-driven analysis aimed at understanding the socio-economic predictors of substance misuse in economically disadvantaged regions of England. The analysis employs data science methodologies to identify patterns, assess risk levels, and recommend actionable interventions for policymakers and healthcare providers.</p>
-        <p>The data analysis was conducted using datasets from Public Health England (PHE), the Office for National Statistics (ONS), and NHS Digital. The focus was on key socio-economic indicators such as income, unemployment, education, and housing metrics. Advanced data processing, regression analysis, clustering, and data visualisation techniques were utilised to uncover critical insights into substance misuse trends.</p>
-    </section>
+        <section class="bg-white p-4 rounded-lg shadow-lg">
+            <h2 class="text-lg font-semibold">Data Visualizations</h2>
+            <img src="visuals/Cluster Analysis.png" alt="Cluster Analysis" class="w-full h-auto rounded-lg shadow-lg">
+        </section>
 
-    <section id="project-link">
-        <h2>Project Documentation</h2>
-        <p>You can view the complete project documentation and detailed analysis in the README file. 
-        <a href="https://github.com/rajwinderkaur6672025/Data-Science-Analysis_v2/blob/main/README.md" target="_blank">View README</a></p>
-    </section>
+        <section class="bg-white p-4 rounded-lg shadow-lg col-span-2">
+            <h2 class="text-lg font-semibold">Data Preview</h2>
+            <table class="w-full border border-gray-300">
+                <tr class="bg-blue-100">
+                    <th class="p-2">Region</th>
+                    <th class="p-2">Substance Misuse Rate</th>
+                </tr>
+                <tr>
+                    <td class="p-2">Region 1</td>
+                    <td class="p-2">15%</td>
+                </tr>
+                <tr>
+                    <td class="p-2">Region 2</td>
+                    <td class="p-2">10%</td>
+                </tr>
+            </table>
+        </section>
+    </div>
 
-    <section id="data-sources">
-        <h2>Data Sources</h2>
-        <ul>
-            <li>Public Health England (PHE)</li>
-            <li>Office for National Statistics (ONS)</li>
-            <li>NHS Digital</li>
-        </ul>
-    </section>
-
-    <section id="visualisations">
-        <h2>Data Visualisations</h2>
-        <img src="images/substance-misuse-heatmap.png" alt="Heatmap of Substance Misuse Rates" width="600">
-        <figcaption>Heatmap showing substance misuse rates by region.</figcaption>
-    </section>
-
-    <section id="data-link">
-        <h2>Download Data</h2>
-        <a href="https://raw.githubusercontent.com/rajwinderkaur6672025/Data-Science-Analysis_v2/main/data/substance_misuse_data.csv" download>Download Substance Misuse Data (CSV)</a>
-    </section>
-
-    <section id="data-display">
-        <h2>Data Preview</h2>
-        <div id="data-container"></div>
-    </section>
-
-    <script>
-        async function fetchData() {
-            const response = await fetch("https://raw.githubusercontent.com/rajwinderkaur6672025/Data-Science-Analysis_v2/main/data/substance_misuse_data.csv");
-            const data = await response.text();
-            const lines = data.split("\n");
-            const container = document.getElementById("data-container");
-            
-            lines.forEach(line => {
-                const div = document.createElement("div");
-                div.textContent = line;
-                container.appendChild(div);
-            });
-        }
-
-        fetchData();
-    </script>
-
-    <footer>
-        <p>&copy; 2025 Social Determinants of Substance Misuse Project. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white p-4 mt-4 rounded-lg text-center">
+        © 2025 Social Determinants of Substance Misuse Project. All rights reserved.
     </footer>
-</body>
-</html>
+</div>
