@@ -1,4 +1,4 @@
-/rajwinderkaur6672025.github.io/
+/your-username.github.io/
 │   README.md
 │   index.html
 │
@@ -6,7 +6,9 @@
 │       styles.css
 │
 ├───images
-│       graphs.png
+│       Cluster Analysis.png
+│       Correlation matrix.png
+│       Substance misuse by region.png
 │
 └───data
         substance_misuse_data.csv
