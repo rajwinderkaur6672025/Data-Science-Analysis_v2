@@ -39,35 +39,6 @@ Correlation Matrix: Demonstrates the relationship between socio-economic indicat
 Substance Misuse by Region: Visualises substance misuse rates by region, focusing on socio-economic risk factors.
 
 
-
-📦 Setup Instructions
-
-Clone the repository:
-
-git clone https://github.com/your-username/your-username.github.io.git
-
-Navigate to the project directory:
-
-cd your-username.github.io
-
-Data Preparation:
-
-Ensure the data folder contains substance_misuse_data.csv.
-
-Verify the images folder includes all visual assets (e.g., graphs.png, Cluster Analysis.png).
-
-View the Project:
-
-Open index.html in a web browser to view the project locally.
-
-Deploy the Project:
-
-Go to the repository settings.
-
-Enable GitHub Pages under the Pages section.
-
-The live project will be accessible at https://your-username.github.io.
-
 ✅ Future Enhancements
 
 Advanced Predictive Models: Implement Random Forests and Neural Networks for complex pattern analysis.
